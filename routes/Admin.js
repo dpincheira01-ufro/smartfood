@@ -7,6 +7,7 @@ router.post('/Admin', async(req, res) => {
     const body = req.body;
     try {
         const adminDB = await Admin.create(body);
+        s
         res.status(200).json(adminDB);
     } catch (error) {
         return res.status(500).json({
