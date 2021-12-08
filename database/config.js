@@ -4,10 +4,6 @@ const options = {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
-<<<<<<< HEAD
-=======
-
->>>>>>> 46b38d4312c6412d6cbbd48fdd6da4fefe0a82c2
 };
 
 const dbConnection = () => {
