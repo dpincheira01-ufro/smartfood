@@ -2,8 +2,8 @@ import mongoose from 'mongoose';
 const Schema = mongoose.Schema;
 
 const mesasSchema = new Schema({
-    idMesa:{type: Number, required: true, unique: true}
-})
+    idMesa:{type: Number, unique: true},
+});
 
 const Mesas = mongoose.model('mesas', mesasSchema);
 

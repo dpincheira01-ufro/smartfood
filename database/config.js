@@ -3,6 +3,8 @@ const uri = 'mongodb+srv://diegop:diego123@mongodb.9x4su.mongodb.net/SmartFood?a
 const options = {
     useNewUrlParser: true,
     useUnifiedTopology: true,
+    useCreateIndex: true,
+
 };
 
 const dbConnection = () => {
