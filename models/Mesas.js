@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 const Schema = mongoose.Schema;
 
 const mesasSchema = new Schema({
-    idMesa: Number,
+    idMesa:{type: Number, unique: true},
 });
 
 const Mesas = mongoose.model('mesas', mesasSchema);
